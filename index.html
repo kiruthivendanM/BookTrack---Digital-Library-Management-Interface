@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e mart</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1>dairys</h1>
+    </div>
+
+    <div class="book">
+        <div class="container">
+            <h1>rich dad poor dad</h1>
+            <h5>robert nirmal</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, animi debitis rerum atque asperiores ad magnam maxime voluptates, et deleniti eligendi dolore, corrupti dolores eius explicabo at possimus quisquam facilis. Aperiam tenetur consequuntur alias hic architecto maiores officia itaque doloremque. ipsum dolor sit amet...</p>
+            <button onclick="deletek(event)">delete</button>
+        </div>
+       
+        </div>
+    <button class="addbutton" id="add-popup-button">+</button>
+
+    <div class="overly"></div>
+
+    <div class="popbox">
+        <h1>ADD BOOK</h1>
+        <form>
+            <input type="text" placeholder="BOOK NAME" id="namebook">
+            <input type="text" placeholder="NAME OF AUTHOR" id="bookauthor">
+            <textarea id="description" placeholder="SHORT DESCRIPTION"></textarea>
+            <button id="addbooks" class="add1">add</button>
+            <button id="close" class="close1">close</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

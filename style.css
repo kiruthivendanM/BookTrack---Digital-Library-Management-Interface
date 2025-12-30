@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    background-color: #fd6569;
+    padding: 20px;
+   
+}
+.book{
+
+    padding :20px
+  
+
+}
+.container {
+    
+    padding:20px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 15px;
+
+    
+    
+}
+.container p{
+
+    margin-top: 20px;
+    padding: 5px;
+}
+.container h1{
+
+    color: #fd6569;
+}
+.container button{
+    background-color: #fd6569;
+    color: black;
+    padding: 5px;
+    border-radius: 10pc;
+    padding-top: 10px;
+
+
+}
+.addbutton{
+
+    background-color: #fd6569;
+    color: black;
+    border-radius: 100%;
+    position: fixed;
+    padding: 20px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+
+   
+
+}
+.overly{
+
+width: 100%;
+background-color: black;
+opacity: 0.8;
+position: absolute;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+display: none;
+}
+.popbox{
+    z-index: 2;
+    background-color: #fd6569;
+    position: absolute;
+    padding: 30px;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    border-radius: 15px;
+    display: none;
+}
+.popbox input{
+     padding: 20px;
+     background-color: transparent;
+     border: none;
+     width: 95%;
+     margin: 5px;
+     border-bottom: solid black  2px;
+     font-size: 20px;
+     color: black;
+     
+
+}
+.popbox textarea{
+     padding: 10px;
+     background-color: transparent;
+     border-color: black;
+     border: solid black 2px;
+     width: 98%;
+     margin: 5px;
+     border-bottom: solid black  2px;
+     font-size: 20px;
+     color: black;
+     margin-top: 10px;
+     
+
+}
+.add1{
+
+    padding:8px;
+    background-color:black;
+    border-radius: 20px;
+    color: white;
+    width: 20%;
+    
+}
+.close1{
+    padding:8px;
+    background-color:black;
+    border-radius: 20px;
+    color: white;
+    width: 20%;
+
+}
+
+
+.popbox input::placeholder{
+    color: black;
+}
+.popbox textarea::placeholder{
+    color: black;
+}
+
